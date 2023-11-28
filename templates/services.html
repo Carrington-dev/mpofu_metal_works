@@ -1,0 +1,390 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('/static/img/breadcrumbs-bg.jpg');">
+        <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+            <h2>Services</h2>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li>Services</li>
+            </ol>
+
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>We offer a wide range of metal and steel related services some of which are given below</p>
+            </div>
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item  position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-mountain-city"></i>
+                        </div>
+                        <h3>Fabrication</h3>
+                        <p>We manufacture structural steel for the industrial and commercials sectors ranging from Warehousing, Retail shopping centres, car dealerships to structural steel pedestrian bridges.</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        </div>
+                        <h3>Plasma Cutting</h3>
+                        <p>We currently process over 20 tons of plate a month through this plasma cutting facility. Please Contact Us should you wish to enquire about plasma cutting</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-compass-drafting"></i>
+                        </div>
+                        <h3>Cutting services</h3>
+                        <p>We offer a wide variety of cutting services including cut-to-length, laser cutting, water jet cutting, plasma cutting, shearing, slitting, sawing and band saw cutting.</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-trowel-bricks"></i>
+                        </div>
+                        <h3>Polishing and brushing services</h3>
+                        <p>We have many options for polishing and brushing services including basic polishing and brushing, coil-to-coil as well as sheet-to-sheet polishing and brushing.</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-helmet-safety"></i>
+                        </div>
+                        <h3>Welding services</h3>
+                        <p>For welding services we offer mechanized welding, submerged arc welding (saw) and plasma arc welding (paw) for beams and hollow sections.</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-item position-relative">
+                        <div class="icon">
+                            <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        </div>
+                        <h3>Plate bending and other services</h3>
+                        <p>We also offer other services which are blanking, multi-blanking, traverse winding, plate bending and milling/edge preparation.</p>
+                        <a href="{% url 'services' %}" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <!-- End Service Item -->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+
+
+    {% comment %}
+
+    <!-- ======= Servie Cards Section ======= -->
+    <section id="services-cards" class="services-cards">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <h3>Quality</h3>
+                    <p>Eius non minus autem soluta ut ui labore omnis quisquam corrupti autem odit voluptas quos commodi magnam occaecati.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Duis aute irure dolor in reprehenderit</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+                    </ul>
+                </div>
+                <!-- End feature item-->
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Reputation</h3>
+                    <p>Ducimus ea quam et occaecati est. Temporibus in soluta labore voluptates aut. Et sit soluta non repellat sed quia dire plovers tradoria</p>
+
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check2"></i> <span>Enim temporibus maiores eligendi</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Ut maxime ut quibusdam quam qui</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Officiis aspernatur in officiis</span></li>
+                    </ul>
+                </div>
+                <!-- End feature item-->
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <h3>Understanding</h3>
+                    <p>Velit eos error et dolor omnis voluptates nobis tenetur sed enim nihil vero qui suscipit ipsum at magni. Ipsa architecto consequatur aliquam</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check2"></i> <span>Quis voluptates laboriosam numquam</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Treva libero sunt quis veniam ut</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Debitis eos est est corrupti</span></li>
+                    </ul>
+                </div>
+                <!-- End feature item-->
+
+                <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <h3>Passion</h3>
+                    <p>Molestiae occaecati assumenda quia saepe nobis recusandae at dicta ducimus sequi numquam commodi est in consequatur ea magnam quia itaque</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check2"></i> <span>Veritatis qui reprehenderit quis</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Accusantium vel numquam sunt minus</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Voluptatem pariatur est sationem</span></li>
+                    </ul>
+                </div>
+                <!-- End feature item-->
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Servie Cards Section -->
+    <!-- ======= Alt Services Section 2 ======= -->
+    <section id="alt-services-2" class="alt-services section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-around gy-4">
+                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                    <h3>Non quasi officia eum nobis et rerum epudiandae rem voluptatem</h3>
+                    <p>Maxime quia dolorum alias perspiciatis. Earum voluptatem sint at non. Ducimus maxime minima iste magni sit praesentium assumenda minus. Amet rerum saepe tempora vero.</p>
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bi bi-easel flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+                        <i class="bi bi-patch-check flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-brightness-high flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                            <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bi bi-brightness-high flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                            <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+                </div>
+
+                <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services-2.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Alt Services Section 2 -->
+
+    <!-- ======= Alt Services Section ======= -->
+    <section id="alt-services" class="alt-services">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-around gy-4">
+                <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+                <div class="col-lg-5 d-flex flex-column justify-content-center">
+                    <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+                    <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi</p>
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                        <i class="bi bi-easel flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+                        <i class="bi bi-patch-check flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Nemo Enim</a></h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                        <i class="bi bi-brightness-high flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Dine Pad</a></h4>
+                            <p>Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                    <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                        <i class="bi bi-brightness-high flex-shrink-0"></i>
+                        <div>
+                            <h4><a href="" class="stretched-link">Tride clov</a></h4>
+                            <p>Est voluptatem labore deleniti quis a delectus et. Saepe dolorem libero sit non aspernatur odit amet. Et eligendi</p>
+                        </div>
+                    </div>
+                    <!-- End Icon Box -->
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Alt Services Section -->
+    {% endcomment %}
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-header">
+                <h2>Testimonials</h2>
+                <p>Are you in need of a welding company in Pretoria or Johannesburg or anywhere in South Africa? Listen to what our clients say about us and make the right decision.</p>
+            </div>
+
+            <div class="slides-2 swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <img src="{% static 'img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                                <h3>Saul Goodman</h3>
+                                <h4>Ceo &amp; Founder</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i> MPF Metal works is a genuine company that you can depend on. They build my trailer and it works perfectly fine. Feel free to conatct them.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <img src="/static/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <h3>Peter Wilsson</h3>
+                                <h4>Designer</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i> MPF Metal Works contructed my garage shadow. They went 5 miles more than I expected. I must say that this company is the best eveer.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <img src="/static/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <h3>Jena Karlis</h3>
+                                <h4>Store Owner</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i> I used to sell my products with fear but MPF Metal Works secured my happiness by welidng perfect bugglers and fencing to my shop.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <img src="{% static 'img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
+                                <h3>Matt Brandon</h3>
+                                <h4>Freelancer</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i> I normally rely on my team to perform some specific duties but I liked the honest from MPF Metal Wor team. They are the right team to your next project
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-wrap">
+                            <div class="testimonial-item">
+                                <img src="/static/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <h3>John Larson</h3>
+                                <h4>Entrepreneur</h4>
+                                <div class="stars">
+                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                </div>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i> I'm prefer quality with modesty which is exactly what MPF Metal Works gives. Feel free to conatct this team, you will love it.
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+</main>
+<!-- End #main -->
+{% endblock content %}
